@@ -1,1 +1,85 @@
-{"type":"header","name":"Header Group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement_DKVb4L":{"type":"announcement","settings":{"text":"Announce something here","link":""}}},"block_order":["announcement_DKVb4L"],"settings":{"marquee":true,"animation_speed":"100","checkbox_close_announcement":true,"color-body-text":"rgba(0,0,0,0)","background_color":"#cecece"}},"header":{"type":"page-header","settings":{"layout":"option_4","sticky_header":true,"sticky_header_always":false,"header_bg_opacity":100,"header_bg_blur":0,"header_always_blurred":false,"show_line_separator":true,"show_shadow":true,"logo":"shopify:\/\/shop_images\/Logo_JohnVarvatos-Black.png","large_screen_logo_width":170,"mobile_screen_logo_width":100,"menu":"main-menu","teaser_menu":"main-menu","mobile_footer_menu":"","transparent_logo":"shopify:\/\/shop_images\/Logo_JohnVarvatos-Black.png","transparent_header_color":"rgba(0,0,0,0)","drawer_title":"Shop by","typing_search":"Search...","suggestions_title":"","suggestions_menu":"main-menu"}},"page_header_logo_banner_tpXcBm":{"type":"page-header-logo-banner","settings":{"logo_image":"shopify:\/\/shop_images\/Logo_JohnVarvatos-Black.png","additional_text":"Scroll down to see more","button_style":"primary","button_label":"Button label","button_disable_on_mobile":false,"button_link":"","button_link_in_new_window":false,"color-body-text":"rgba(0,0,0,0)","color-overlay":"rgba(0,0,0,0)","color-overlay-opacity":0}}},"order":["announcement-bar","header","page_header_logo_banner_tpXcBm"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_DKVb4L": {
+          "type": "announcement",
+          "settings": {
+            "text": "Announce something here",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_DKVb4L"
+      ],
+      "disabled": true,
+      "settings": {
+        "marquee": true,
+        "animation_speed": "100",
+        "checkbox_close_announcement": true,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "#cecece"
+      }
+    },
+    "header": {
+      "type": "page-header",
+      "disabled": true,
+      "settings": {
+        "layout": "option_4",
+        "sticky_header": true,
+        "sticky_header_always": false,
+        "header_bg_opacity": 100,
+        "header_bg_blur": 0,
+        "header_always_blurred": false,
+        "show_line_separator": true,
+        "show_shadow": true,
+        "logo": "shopify://shop_images/Logo_JohnVarvatos-Black.png",
+        "large_screen_logo_width": 170,
+        "mobile_screen_logo_width": 100,
+        "menu": "main-menu",
+        "teaser_menu": "main-menu",
+        "mobile_footer_menu": "",
+        "transparent_logo": "shopify://shop_images/Logo_JohnVarvatos-Black.png",
+        "transparent_header_color": "rgba(0,0,0,0)",
+        "drawer_title": "Shop by",
+        "typing_search": "Search...",
+        "suggestions_title": "",
+        "suggestions_menu": "main-menu"
+      }
+    },
+    "page_header_logo_banner_tpXcBm": {
+      "type": "page-header-logo-banner",
+      "disabled": true,
+      "settings": {
+        "logo_image": "shopify://shop_images/Logo_JohnVarvatos-Black.png",
+        "additional_text": "Scroll down to see more",
+        "button_style": "primary",
+        "button_label": "Button label",
+        "button_disable_on_mobile": false,
+        "button_link": "",
+        "button_link_in_new_window": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "page_header_logo_banner_tpXcBm"
+  ]
+}

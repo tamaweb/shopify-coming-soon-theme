@@ -39,6 +39,7 @@
         "heading_xqAqaP",
         "text_yXHg9h"
       ],
+      "disabled": true,
       "settings": {
         "desktop_text_horizontal_position": "center",
         "color-body-text": "rgba(0,0,0,0)",
@@ -125,6 +126,7 @@
         "image_zAqt6N",
         "image_zgNbTH"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "swipe_on_mobile": false,
@@ -170,6 +172,7 @@
         "text_mWnmEE",
         "button_7cDcAq"
       ],
+      "disabled": true,
       "settings": {
         "desktop_text_horizontal_position": "center",
         "rotation": 10,
@@ -243,6 +246,7 @@
         "image_cYFD8M",
         "image_BQwQca"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "animation": "marquee",
@@ -283,6 +287,7 @@
         "product_9WHJPz",
         "product_tkHdPX"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "full-width-enabled": false,
@@ -302,17 +307,21 @@
     },
     "featured_collection_98txhK": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "disable_on_mobile": false,
         "collection": "",
+        "product_list": [],
         "products_to_show": 11,
+        "enable_stack_products": false,
         "show_view_all": true,
         "button_select": "primary",
         "number_of_column_desktop": 4,
         "spacing_desktop": "16",
         "make_products_full_width": true,
         "number_of_column_mobile": 2.1,
+        "spacing_mobile": "16",
         "text_alignment": "left",
         "image_ratio": "square",
         "show_video": false,
@@ -369,6 +378,7 @@
         "text_eweRcw",
         "button_gMqqB9"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "layout": "image_first",
@@ -438,6 +448,7 @@
         "product_nziX76",
         "product_cFgPyj"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Shoppable video reels",
         "quick-add-enabled": false,
@@ -495,6 +506,7 @@
         "text_mwt6AN",
         "button_AVNHJf"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "full-width-enabled": true,
@@ -505,7 +517,7 @@
         "desktop_text_horizontal_position": "center",
         "mobile_text_vertical_position": "center",
         "mobile_text_horizontal_position": "center",
-        "color-heading": "transparent",
+        "color-heading": "rgba(0,0,0,0)",
         "section-color-overlay": "rgba(0,0,0,0)",
         "section-color-overlay-opacity": 100,
         "color-body-text": "rgba(0,0,0,0)",
@@ -551,6 +563,7 @@
         "column_p6Nadm",
         "column_NRWVw9"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Collection feature",
         "size_heading": 250,
@@ -614,6 +627,7 @@
         "column_JdzEFn",
         "column_xcRNCd"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "swipe_on_mobile": true,
@@ -656,6 +670,7 @@
         "image_dNXyHf",
         "image_ebm39F"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "image_shape": "natural",
@@ -675,7 +690,8 @@
           "settings": {
             "select_icon": "user",
             "heading": "Banner title",
-            "text": "<p>Items you love at prices that fit your budget.</p>"
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
           }
         },
         "image_4xqij4": {
@@ -683,7 +699,8 @@
           "settings": {
             "select_icon": "search",
             "heading": "Banner title",
-            "text": "<p>Items you love at prices that fit your budget.</p>"
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
           }
         },
         "image_izam6t": {
@@ -691,7 +708,8 @@
           "settings": {
             "select_icon": "bag",
             "heading": "Banner title",
-            "text": "<p>Items you love at prices that fit your budget.</p>"
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
           }
         },
         "image_MwWBCP": {
@@ -699,7 +717,8 @@
           "settings": {
             "select_icon": "star",
             "heading": "Banner title",
-            "text": "<p>Items you love at prices that fit your budget.</p>"
+            "text": "<p>Items you love at prices that fit your budget.</p>",
+            "link": ""
           }
         }
       },
@@ -709,15 +728,20 @@
         "image_izam6t",
         "image_MwWBCP"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
-        "size_heading": 70,
         "size_heading_mobile": 80,
+        "size_heading": 70,
+        "icon_width_mobile": 36,
+        "icon_width_desktop": 48,
         "icon_layout": "center",
+        "columns_desktop": "4",
+        "icon_layout_mobile": "grid",
         "color_body_icon": "rgba(0,0,0,0)",
+        "color_background_icon": "transparent",
         "color_body_text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
-        "icon_layout_mobile": "grid",
         "margin-top": 40,
         "margin-bottom": 40
       }
