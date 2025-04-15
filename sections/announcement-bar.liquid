@@ -1,0 +1,23 @@
+<!-- sections/announcement-bar.liquid -->
+<div class="announcement-bar">
+  <p>{{ section.settings.text }}</p>
+</div>
+
+{% schema %}
+{
+  "name": "Announcement Bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "お知らせテキスト",
+      "default": "Announce something here"
+    }
+  ],
+  "presets": [
+    {
+      "name": "デフォルトのお知らせ"
+    }
+  ]
+}
+{% endschema %}

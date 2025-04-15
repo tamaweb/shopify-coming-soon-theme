@@ -131,6 +131,8 @@
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
+
+    {{ 'custom-coming-soon.scss.css' | asset_url | stylesheet_tag }}
   </head>
 
   {% assign template_name = template | handleize %}
@@ -141,7 +143,10 @@
   <body class="template-{{ template_name }} nav-drawer-big mobile-nav">
     <a href="#root" class="skip-to-content-link">{{ 'accessibility.skip_to_text' | t }}</a>
     {% if settings.sticky_header %}<div class="sticky-header__threshold"></div>{% endif %}
+    
+    {%- comment -%}
     {% sections 'header-group' %}
+     {%- endcomment -%}
 
     <main id="root" class="" role="main" tabindex="-1">
       {{ content_for_layout }}
