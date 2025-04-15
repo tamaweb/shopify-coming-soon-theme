@@ -1,0 +1,780 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_with_image_d9iPb9": {
+      "type": "rich-text-with-image",
+      "blocks": {
+        "heading_xqAqaP": {
+          "type": "heading",
+          "settings": {
+            "subheading": "<p>Customize Your Visual Layout</p>",
+            "font_uppercase": "none",
+            "disable_on_mobile": false
+          }
+        },
+        "text_yXHg9h": {
+          "type": "text",
+          "settings": {
+            "text": "Type PICTURE1 to insert the first icon – place it where you want a visual cue. Insert PICTURE2 by typing it where a second visual element is needed. Use PICTURE3 for adding a third icon – ensure it has its own space.",
+            "font_uppercase": "none",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "line_height": 1.5,
+            "button_link1": "",
+            "button_link2": "",
+            "button_link3": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_xqAqaP",
+        "text_yXHg9h"
+      ],
+      "settings": {
+        "desktop_text_horizontal_position": "center",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "grid_view_PEBP9T": {
+      "type": "grid-view",
+      "blocks": {
+        "image_dkHG7f": {
+          "type": "image",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "Give customers details about the image or content on the template.",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        },
+        "image_zAqt6N": {
+          "type": "image",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "Give customers details about the image or content on the template.",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        },
+        "image_zgNbTH": {
+          "type": "image",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100,
+            "text": "Give customers details about the image or content on the template.",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false,
+            "color-body-text": "rgba(0,0,0,0)",
+            "color-overlay": "rgba(0,0,0,0)",
+            "color-overlay-opacity": 0,
+            "desktop_text_vertical_position": "center",
+            "desktop_text_horizontal_position": "center",
+            "mobile_text_vertical_position": "center",
+            "mobile_text_horizontal_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_dkHG7f",
+        "image_zAqt6N",
+        "image_zgNbTH"
+      ],
+      "settings": {
+        "title": "",
+        "swipe_on_mobile": false,
+        "full-width-enabled": true,
+        "image_ratio": "adapt",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "parallax_9pNgNx": {
+      "type": "parallax",
+      "blocks": {
+        "heading_QUKcCw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "disable_on_mobile": false,
+            "size_heading": 300,
+            "size_heading_mobile": 200
+          }
+        },
+        "text_mWnmEE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make annuncements, or welcome customers to your store.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_7cDcAq": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUKcCw",
+        "text_mWnmEE",
+        "button_7cDcAq"
+      ],
+      "settings": {
+        "desktop_text_horizontal_position": "center",
+        "rotation": 10,
+        "button_link1": "",
+        "button_link2": "",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "brands_cygNdd": {
+      "type": "brands",
+      "blocks": {
+        "image_wj4H9U": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_wdK9wz": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_tQw7V3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_Dg4baM": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_aiBdUf": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_rXica8": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_cYFD8M": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "image_BQwQca": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wj4H9U",
+        "image_wdK9wz",
+        "image_tQw7V3",
+        "image_Dg4baM",
+        "image_aiBdUf",
+        "image_rXica8",
+        "image_cYFD8M",
+        "image_BQwQca"
+      ],
+      "settings": {
+        "heading": "",
+        "animation": "marquee",
+        "animation_speed": "100",
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "shoppable_video_PWWPiV": {
+      "type": "shoppable-video",
+      "blocks": {
+        "product_4F9efb": {
+          "type": "product",
+          "settings": {
+            "start_second": 1,
+            "featured_product": ""
+          }
+        },
+        "product_9WHJPz": {
+          "type": "product",
+          "settings": {
+            "start_second": 4,
+            "featured_product": ""
+          }
+        },
+        "product_tkHdPX": {
+          "type": "product",
+          "settings": {
+            "start_second": 6,
+            "featured_product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_4F9efb",
+        "product_9WHJPz",
+        "product_tkHdPX"
+      ],
+      "settings": {
+        "heading": "",
+        "full-width-enabled": false,
+        "quick-add-enabled": false,
+        "rewind-enabled": false,
+        "hide-brand-name": false,
+        "desktop_fixed_height": 600,
+        "mobile_fixed_height": 480,
+        "enable_full_screen_mode": false,
+        "color-body-heading": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "color-body-text": "#000000",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "featured_collection_98txhK": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "disable_on_mobile": false,
+        "collection": "",
+        "products_to_show": 11,
+        "show_view_all": true,
+        "button_select": "primary",
+        "number_of_column_desktop": 4,
+        "spacing_desktop": "16",
+        "make_products_full_width": true,
+        "number_of_column_mobile": 2.1,
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "show_video": false,
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_product_rating": true,
+        "enable_quick_add_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 40
+      }
+    },
+    "image_with_text_XEykNM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_idamzh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_mXc8nK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_eweRcw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body",
+            "disable_on_mobile": false
+          }
+        },
+        "button_gMqqB9": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_link": "/",
+            "disable_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_idamzh",
+        "heading_mXc8nK",
+        "text_eweRcw",
+        "button_gMqqB9"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "image_first",
+        "desktop-percentage-image-width": 50,
+        "full-width-enabled": true,
+        "slide_height": "adapt_to_first_image",
+        "desktop_fixed_height": 320,
+        "mobile_fixed_height": 460,
+        "section-color-body-text": "rgba(0,0,0,0)",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "color-overlay": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
+    "video_reels_kb4KdA": {
+      "type": "video-reels",
+      "blocks": {
+        "product_CAAJBg": {
+          "type": "product",
+          "settings": {
+            "featured_product": ""
+          }
+        },
+        "product_wrYgbH": {
+          "type": "product",
+          "settings": {
+            "featured_product": ""
+          }
+        },
+        "product_Q3Dhwd": {
+          "type": "product",
+          "settings": {
+            "featured_product": ""
+          }
+        },
+        "product_4zdjEq": {
+          "type": "product",
+          "settings": {
+            "featured_product": ""
+          }
+        },
+        "product_nziX76": {
+          "type": "product",
+          "settings": {
+            "featured_product": ""
+          }
+        },
+        "product_cFgPyj": {
+          "type": "product",
+          "settings": {
+            "featured_product": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_CAAJBg",
+        "product_wrYgbH",
+        "product_Q3Dhwd",
+        "product_4zdjEq",
+        "product_nziX76",
+        "product_cFgPyj"
+      ],
+      "settings": {
+        "heading": "Shoppable video reels",
+        "quick-add-enabled": false,
+        "hide-brand-name": false,
+        "video_button": false,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "image_banner_tWAmij": {
+      "type": "image-banner",
+      "blocks": {
+        "subheading_LRqfVE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tell you story",
+            "subheading_disable_on_mobile": false
+          }
+        },
+        "heading_PdceRT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "text_mwt6AN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "disable_on_mobile": false
+          }
+        },
+        "button_AVNHJf": {
+          "type": "button",
+          "settings": {
+            "button_select": "primary",
+            "button_label": "Button label",
+            "disable_on_mobile": false,
+            "button_link": "/",
+            "second_button_select": "primary",
+            "second_button_label": "Button label",
+            "second_disable_on_mobile": false,
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LRqfVE",
+        "heading_PdceRT",
+        "text_mwt6AN",
+        "button_AVNHJf"
+      ],
+      "settings": {
+        "heading": "",
+        "full-width-enabled": true,
+        "slide_height": "fixed_height",
+        "desktop_fixed_height": 560,
+        "mobile_fixed_height": 460,
+        "desktop_text_vertical_position": "center",
+        "desktop_text_horizontal_position": "center",
+        "mobile_text_vertical_position": "center",
+        "mobile_text_horizontal_position": "center",
+        "color-heading": "transparent",
+        "section-color-overlay": "rgba(0,0,0,0)",
+        "section-color-overlay-opacity": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "text-container-color": "rgba(0,0,0,0)",
+        "color-overlay-opacity": 100,
+        "margin-top": 0,
+        "margin-bottom": 0
+      }
+    },
+    "collection_feature_gjXgRQ": {
+      "type": "collection-feature",
+      "blocks": {
+        "column_yL9FTC": {
+          "type": "column",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "color-body-text": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "column_p6Nadm": {
+          "type": "column",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "color-body-text": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "column_NRWVw9": {
+          "type": "column",
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "color-body-text": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "column_yL9FTC",
+        "column_p6Nadm",
+        "column_NRWVw9"
+      ],
+      "settings": {
+        "heading": "Collection feature",
+        "size_heading": 250,
+        "line_height": 1.5,
+        "size_heading_mobile": 200,
+        "line_height_mobile": 1.5,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "multicolumn_hyPJ6j": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zpWjUE": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_JdzEFn": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        },
+        "column_xcRNCd": {
+          "type": "column",
+          "settings": {
+            "heading": "Column",
+            "heading_disable_on_mobile": false,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_disable_on_mobile": false,
+            "button_select": "primary",
+            "button_label": "Button label",
+            "button_disable_on_mobile": false,
+            "button_link": "",
+            "button_link_in_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "column_zpWjUE",
+        "column_JdzEFn",
+        "column_xcRNCd"
+      ],
+      "settings": {
+        "heading": "",
+        "swipe_on_mobile": true,
+        "full-width-enabled": true,
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "size_heading": 100,
+        "size_heading_mobile": 100,
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 20,
+        "margin-bottom": 20
+      }
+    },
+    "testimonials_mB6iUg": {
+      "type": "testimonials",
+      "blocks": {
+        "image_dNXyHf": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Author name"
+          }
+        },
+        "image_ebm39F": {
+          "type": "image",
+          "settings": {
+            "icon_select": "100",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers. </p>",
+            "large_screen_logo_width": 100,
+            "mobile_screen_logo_width": 100,
+            "author": "Author name"
+          }
+        }
+      },
+      "block_order": [
+        "image_dNXyHf",
+        "image_ebm39F"
+      ],
+      "settings": {
+        "heading": "",
+        "image_shape": "natural",
+        "testimonial_text_size_desktop": 100,
+        "testimonial_text_size": 100,
+        "text_color": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "features_banner_rnAYGJ": {
+      "type": "features-banner",
+      "blocks": {
+        "image_knKEhC": {
+          "type": "image",
+          "settings": {
+            "select_icon": "user",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>"
+          }
+        },
+        "image_4xqij4": {
+          "type": "image",
+          "settings": {
+            "select_icon": "search",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>"
+          }
+        },
+        "image_izam6t": {
+          "type": "image",
+          "settings": {
+            "select_icon": "bag",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>"
+          }
+        },
+        "image_MwWBCP": {
+          "type": "image",
+          "settings": {
+            "select_icon": "star",
+            "heading": "Banner title",
+            "text": "<p>Items you love at prices that fit your budget.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_knKEhC",
+        "image_4xqij4",
+        "image_izam6t",
+        "image_MwWBCP"
+      ],
+      "settings": {
+        "heading": "",
+        "size_heading": 70,
+        "size_heading_mobile": 80,
+        "icon_layout": "center",
+        "color_body_icon": "rgba(0,0,0,0)",
+        "color_body_text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "icon_layout_mobile": "grid",
+        "margin-top": 40,
+        "margin-bottom": 40
+      }
+    },
+    "newsletter_i8q83Y": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_jANmtK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_disable_on_mobile": false,
+            "size_heading": 100,
+            "size_heading_mobile": 100
+          }
+        },
+        "paragraph_MzEAAr": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "text_disable_on_mobile": false
+          }
+        },
+        "email_form_RWKtAi": {
+          "type": "email_form",
+          "settings": {
+            "button_select": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jANmtK",
+        "paragraph_MzEAAr",
+        "email_form_RWKtAi"
+      ],
+      "settings": {
+        "color-body-text": "rgba(0,0,0,0)",
+        "background_color": "rgba(0,0,0,0)",
+        "margin-top": 60,
+        "margin-bottom": 60
+      }
+    }
+  },
+  "order": [
+    "rich_text_with_image_d9iPb9",
+    "grid_view_PEBP9T",
+    "parallax_9pNgNx",
+    "brands_cygNdd",
+    "shoppable_video_PWWPiV",
+    "featured_collection_98txhK",
+    "image_with_text_XEykNM",
+    "video_reels_kb4KdA",
+    "image_banner_tWAmij",
+    "collection_feature_gjXgRQ",
+    "multicolumn_hyPJ6j",
+    "testimonials_mB6iUg",
+    "features_banner_rnAYGJ",
+    "newsletter_i8q83Y"
+  ]
+}

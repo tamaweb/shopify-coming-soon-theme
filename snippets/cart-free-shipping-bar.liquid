@@ -1,0 +1,30 @@
+{% assign free_shipping_threshold = settings.free_shipping_bar_amount | default: 100 %}
+{% assign cart_value = cart.total_price | divided_by: 100 | round: 2 %}
+
+{% assign remaining_amount = free_shipping_threshold | minus: cart_value %}
+{% assign progress_percentage = cart_value | times: 100 | divided_by: free_shipping_threshold | round %}
+
+{% if remaining_amount < 0 %}
+  {% assign remaining_amount = 0 %}
+  {% assign progress_percentage = 100 %}
+{% endif %}
+
+{% assign remaining_amount_with_currency = remaining_amount | times: 100 | money %}
+
+{% assign custom_text = settings.free_shipping_bar_text | replace: '||amount||', remaining_amount_with_currency %}
+
+<div class="wt-free-shipping-bar">
+  <p class="wt-free-shipping-bar__text">
+    {% if remaining_amount > 0 %}
+      {{ custom_text }}
+    {% else %}
+      {{ settings.free_shipping_bar_text_success }}
+    {% endif %}
+  </p>
+  <div class="wt-progress-bar">
+    <div
+      class="wt-progress-bar__fill"
+      style="width: {{ progress_percentage }}%;"
+    ></div>
+  </div>
+</div>
