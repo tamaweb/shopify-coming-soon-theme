@@ -1,0 +1,75 @@
+{
+  "article": [],
+  "blog": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "色",
+      "description": "青やストライプなど、主な色やパターンを定義",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "sleeve-length-type",
+      "namespace": "shopify",
+      "name": "袖丈タイプ",
+      "description": "半袖やノースリーブなど、衣料品アイテムの袖のスタイルを指定",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "care-instructions",
+      "namespace": "shopify",
+      "name": "お手入れ方法",
+      "description": "手洗いやドライクリーニングのみなど、製品の維持に関するガイダンスを提供します。",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fabric",
+      "namespace": "shopify",
+      "name": "布・生地",
+      "description": "製品に使用されるファブリックの種類 (綿やデニムなど) を識別します。",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "outerwear-clothing-features",
+      "namespace": "shopify",
+      "name": "アウターウェアの特徴",
+      "description": "断熱性や防水性など、アウターの特殊な特性を識別する",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "size",
+      "namespace": "shopify",
+      "name": "サイズ",
+      "description": "製品のサイズを指定するために使用されます (0 ～ 3か月または特大 (XL) など)。",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
