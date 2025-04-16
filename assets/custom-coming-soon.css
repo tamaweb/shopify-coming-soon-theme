@@ -27,4 +27,12 @@
 .newsletter .newsletter__wrapper h2,
 .newsletter .newsletter__wrapper p {
   color: #fff;
+}
+
+.wt-footer__body {
+  display: none !important;
+}
+
+.wt-footer__aside-block.wt-footer__aside-block--payment {
+  display: none;
 }/*# sourceMappingURL=custom-coming-soon.css.map */
