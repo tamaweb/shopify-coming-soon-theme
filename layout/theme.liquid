@@ -132,7 +132,7 @@
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
 
-    {{ 'custom-coming-soon.scss.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-coming-soon.css' | asset_url | stylesheet_tag }}
   </head>
 
   {% assign template_name = template | handleize %}

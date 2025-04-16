@@ -1,0 +1,36 @@
+@use 'mixin' as *;
+
+#shopify-section-template--18777528467688__coming_soon {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+
+    @include mq(pc) {
+      max-width: 100%;
+    }
+  }
+}
+
+.newsletter {
+  background: url('https://cdn.shopify.com/s/files/1/0730/8270/0008/files/Hero_JVSP25_S05_043.jpg?v=1744273101') no-repeat 70% 0 / cover;
+  height: 80vh;
+
+  .newsletter__wrapper {
+
+    h2,
+    p {
+      color: #fff;
+    }
+  }
+}
