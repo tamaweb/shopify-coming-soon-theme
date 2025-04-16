@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "layout-width": 1600,
@@ -130,19 +139,30 @@
         "blocks": {
           "page-footer-0": {
             "type": "image",
-            "settings": { "image-width": 150 }
+            "settings": {
+              "image-width": 150
+            }
           },
           "page-footer-1": {
             "type": "text",
-            "settings": { "heading_text": "Heading", "text": "<p>Text</p>" }
+            "settings": {
+              "heading_text": "Heading",
+              "text": "<p>Text</p>"
+            }
           },
           "page-footer-2": {
             "type": "menu",
-            "settings": { "heading_links": "Links", "links": "footer" }
+            "settings": {
+              "heading_links": "Links",
+              "links": "footer"
+            }
           },
           "menu_gQMn6C": {
             "type": "menu",
-            "settings": { "heading_links": "Links", "links": "footer" }
+            "settings": {
+              "heading_links": "Links",
+              "links": "footer"
+            }
           }
         },
         "block_order": [
@@ -164,7 +184,10 @@
           "margin-bottom": 20
         }
       },
-      "cart-drawer": { "type": "cart-drawer", "settings": {} }
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {}
+      }
     },
     "content_for_index": []
   },

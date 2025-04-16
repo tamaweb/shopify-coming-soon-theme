@@ -1,8 +1,17 @@
-
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "coming_soon": {
-      "type": "coming-soon"
+      "type": "coming-soon",
+      "settings": {}
     },
     "rich_text_with_image_d9iPb9": {
       "type": "rich-text-with-image",
@@ -30,7 +39,10 @@
           }
         }
       },
-      "block_order": ["heading_xqAqaP", "text_yXHg9h"],
+      "block_order": [
+        "heading_xqAqaP",
+        "text_yXHg9h"
+      ],
       "disabled": true,
       "settings": {
         "desktop_text_horizontal_position": "center",
@@ -113,7 +125,11 @@
           }
         }
       },
-      "block_order": ["image_dkHG7f", "image_zAqt6N", "image_zgNbTH"],
+      "block_order": [
+        "image_dkHG7f",
+        "image_zAqt6N",
+        "image_zgNbTH"
+      ],
       "disabled": true,
       "settings": {
         "title": "",
@@ -155,7 +171,11 @@
           }
         }
       },
-      "block_order": ["heading_QUKcCw", "text_mWnmEE", "button_7cDcAq"],
+      "block_order": [
+        "heading_QUKcCw",
+        "text_mWnmEE",
+        "button_7cDcAq"
+      ],
       "disabled": true,
       "settings": {
         "desktop_text_horizontal_position": "center",
@@ -266,7 +286,11 @@
           }
         }
       },
-      "block_order": ["product_4F9efb", "product_9WHJPz", "product_tkHdPX"],
+      "block_order": [
+        "product_4F9efb",
+        "product_9WHJPz",
+        "product_tkHdPX"
+      ],
       "disabled": true,
       "settings": {
         "heading": "",
@@ -538,7 +562,11 @@
           }
         }
       },
-      "block_order": ["column_yL9FTC", "column_p6Nadm", "column_NRWVw9"],
+      "block_order": [
+        "column_yL9FTC",
+        "column_p6Nadm",
+        "column_NRWVw9"
+      ],
       "disabled": true,
       "settings": {
         "heading": "Collection feature",
@@ -598,7 +626,11 @@
           }
         }
       },
-      "block_order": ["column_zpWjUE", "column_JdzEFn", "column_xcRNCd"],
+      "block_order": [
+        "column_zpWjUE",
+        "column_JdzEFn",
+        "column_xcRNCd"
+      ],
       "disabled": true,
       "settings": {
         "heading": "",
@@ -638,7 +670,10 @@
           }
         }
       },
-      "block_order": ["image_dNXyHf", "image_ebm39F"],
+      "block_order": [
+        "image_dNXyHf",
+        "image_ebm39F"
+      ],
       "disabled": true,
       "settings": {
         "heading": "",
@@ -708,7 +743,7 @@
         "columns_desktop": "4",
         "icon_layout_mobile": "grid",
         "color_body_icon": "rgba(0,0,0,0)",
-        "color_background_icon": "transparent",
+        "color_background_icon": "rgba(0,0,0,0)",
         "color_body_text": "rgba(0,0,0,0)",
         "background_color": "rgba(0,0,0,0)",
         "margin-top": 40,
@@ -721,7 +756,7 @@
         "heading_jANmtK": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "COMING SOON",
             "heading_disable_on_mobile": false,
             "size_heading": 100,
             "size_heading_mobile": 100
@@ -730,7 +765,7 @@
         "paragraph_MzEAAr": {
           "type": "paragraph",
           "settings": {
-            "paragraph": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "paragraph": "<p>新作コレクションや限定オファーの最新情報をいち早くお届け。</p>",
             "text_disable_on_mobile": false
           }
         },
