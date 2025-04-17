@@ -1,4 +1,4 @@
-#shopify-section-template--18777528467688__coming_soon {
+#shopify-section-template {
   position: sticky;
   top: 0;
   width: 100%;
@@ -9,13 +9,13 @@
   justify-content: center;
   align-items: center;
 }
-#shopify-section-template--18777528467688__coming_soon img {
+#shopify-section-template img {
   max-width: 80%;
   display: block;
   margin: 0 auto;
 }
 @media screen and (min-width: 1024px) {
-  #shopify-section-template--18777528467688__coming_soon img {
+  #shopify-section-template img {
     max-width: 100%;
   }
 }
