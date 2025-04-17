@@ -48,4 +48,8 @@
 
 .wt-footer__aside-block.wt-footer__aside-block--payment {
   display: none;
+}
+
+.form__success-field .form__success-field p {
+  color: #000;
 }/*# sourceMappingURL=custom-coming-soon.css.map */
