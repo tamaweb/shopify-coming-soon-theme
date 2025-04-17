@@ -41,6 +41,20 @@
     </li>
   {% endif %}
 
+  {% if settings.social_line_link != empty %}
+    <li class="social-links__item">
+      <a
+        href="{{ settings.social_line_link }}"
+        class="social-link"
+        aria-label="Line"
+        target="_blank"
+        rel="nofollow"
+      >
+        {% render 'icons', id: 'soc-line' %}
+      </a>
+    </li>
+  {% endif %}
+
   {% if settings.social_pinterest_link != empty %}
     <li class="social-links__item">
       <a
