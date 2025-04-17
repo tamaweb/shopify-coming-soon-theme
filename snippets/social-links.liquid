@@ -1,5 +1,5 @@
 <ul class="social-links">
-  {% if settings.social_facebook_link != empty %}
+  {% comment %} {% if settings.social_facebook_link != empty %}
     <li class="social-links__item">
       <a
         href="{{ settings.social_facebook_link }}"
@@ -11,9 +11,9 @@
         {% render 'icons', id: 'soc-fb' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
-  {% if settings.social_twitter_link != empty %}
+  {% comment %} {% if settings.social_twitter_link != empty %}
     <li class="social-links__item">
       <a
         href="{{ settings.social_twitter_link }}"
@@ -25,7 +25,7 @@
         {% render 'icons', id: 'soc-twitter' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
   {% if settings.social_instagram_link != empty %}
     <li class="social-links__item">
@@ -55,7 +55,7 @@
     </li>
   {% endif %}
 
-  {% if settings.social_pinterest_link != empty %}
+  {% comment %} {% if settings.social_pinterest_link != empty %}
     <li class="social-links__item">
       <a
         href="{{ settings.social_pinterest_link }}"
@@ -67,9 +67,9 @@
         {% render 'icons', id: 'soc-pint' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
-  {% if settings.social_tiktok_link != empty %}
+  {% comment %} {% if settings.social_tiktok_link != empty %}
     <li class="social-links__item">
       <a
         href="{{ settings.social_tiktok_link }}"
@@ -81,9 +81,9 @@
         {% render 'icons', id: 'soc-tiktok' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
-  {% if settings.social_tumblr_link != empty %}
+  {% comment %} {% if settings.social_tumblr_link != empty %}
     <li class="social-links__item">
       <a
         href="{{ settings.social_tumblr_link }}"
@@ -95,9 +95,9 @@
         {% render 'icons', id: 'soc-tumblr' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
-  {% if settings.social_snapchat_link != empty %}
+  {% comment %} {% if settings.social_snapchat_link != empty %}
     <li class="social-links__item">
       <a
         href="{{ settings.social_snapchat_link }}"
@@ -109,9 +109,9 @@
         {% render 'icons', id: 'soc-snapchat' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
-  {% if settings.social_youtube_link != empty %}
+  {% comment %} {% if settings.social_youtube_link != empty %}
     <li class="social-links__item">
       <a
         href="{{ settings.social_youtube_link }}"
@@ -123,13 +123,13 @@
         {% render 'icons', id: 'soc-youtube' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 
-  {% if settings.social_vimeo_link != empty %}
+  {% comment %} {% if settings.social_vimeo_link != empty %}
     <li class="social-links__item">
       <a href="{{ settings.social_vimeo_link }}" class="social-link" aria-label="Vimeo" target="_blank" rel="nofollow">
         {% render 'icons', id: 'soc-vimeo' %}
       </a>
     </li>
-  {% endif %}
+  {% endif %} {% endcomment %}
 </ul>
