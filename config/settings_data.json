@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "favicon": "shopify://shop_images/favi_JVicon.png",
     "layout-width": 1600,
     "radius": 0,
     "button-radius": 0,
@@ -84,11 +85,7 @@
     "currency_code_enabled": false,
     "iconset": "option_2",
     "enable-bag-icon": false,
-    // "social_twitter_link": "https://x.com/Shopify",
-    // "social_facebook_link": "https://www.facebook.com/shopify/?locale=pl_PL",
-    // "social_pinterest_link": "https://pl.pinterest.com/shopify/",
     "social_instagram_link": "https://www.instagram.com/johnvarvatosjpn/",
-    "social_line_link": "https://page.line.me/434gmhgs",
     "enable_color_swatch": true,
     "enable_color_swatch_in_filters": true,
     "enable_round_color_swatches": true,
@@ -105,6 +102,7 @@
     "custom-badge-3-input": "New",
     "animations": true,
     "disabled_animations_on_mobile": true,
+    "social_line_link": "https://page.line.me/434gmhgs",
     "logo": "shopify://shop_images/Path_849.svg",
     "large_screen_logo_width": 180,
     "mobile_screen_logo_width": 110,
