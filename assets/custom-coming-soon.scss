@@ -1,4 +1,4 @@
-@use 'mixin' as *;
+@use "mixin" as *;
 
 #shopify-section-template--18777344114920__coming_soon {
   position: sticky !important;
@@ -23,28 +23,29 @@
 }
 
 .newsletter {
-  background: url('https://cdn.shopify.com/s/files/1/0730/8270/0008/files/Hero_JVSP25_S05_043.jpg?v=1744273101') no-repeat 70% 0 / cover;
+  background: url("https://cdn.shopify.com/s/files/1/0730/8270/0008/files/Hero_JVSP25_S05_043.jpg?v=1744273101")
+    no-repeat 70% 0 / cover;
   height: 80vh;
 
   .newsletter__wrapper {
-
-    h2,
-    p {
-      color: #fff;
-    }
-
-    p {
-      font-size: 13px;
-      letter-spacing: 1.5px;
-      font-weight: 300;
-
-      @include mq(tab) {
-        font-size: 16px;
+    .headline {
+      .headline__title {
+        color: #fff;
+        font-size: clamp(28px, 3vw, 6rem);
       }
     }
 
-    h2 {
-      font-size: clamp(28px, 3vw, 6rem);
+    .newsletter__text {
+      p {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        font-weight: 300;
+        color: #fff;
+
+        @include mq(tab) {
+          font-size: 16px;
+        }
+      }
     }
   }
 }
@@ -55,12 +56,4 @@
 
 .wt-footer__aside-block.wt-footer__aside-block--payment {
   display: none;
-}
-
-.form__success-field {
-  .form__success-field {
-    p {
-      color: #000;
-    }
-  }
 }

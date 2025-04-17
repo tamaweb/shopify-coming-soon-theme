@@ -24,22 +24,20 @@
   background: url("https://cdn.shopify.com/s/files/1/0730/8270/0008/files/Hero_JVSP25_S05_043.jpg?v=1744273101") no-repeat 70% 0/cover;
   height: 80vh;
 }
-.newsletter .newsletter__wrapper h2,
-.newsletter .newsletter__wrapper p {
+.newsletter .newsletter__wrapper .headline .headline__title {
   color: #fff;
+  font-size: clamp(28px, 3vw, 6rem);
 }
-.newsletter .newsletter__wrapper p {
+.newsletter .newsletter__wrapper .newsletter__text p {
   font-size: 13px;
   letter-spacing: 1.5px;
   font-weight: 300;
+  color: #fff;
 }
 @media screen and (min-width: 768px) {
-  .newsletter .newsletter__wrapper p {
+  .newsletter .newsletter__wrapper .newsletter__text p {
     font-size: 16px;
   }
-}
-.newsletter .newsletter__wrapper h2 {
-  font-size: clamp(28px, 3vw, 6rem);
 }
 
 .wt-footer__body {
@@ -48,8 +46,4 @@
 
 .wt-footer__aside-block.wt-footer__aside-block--payment {
   display: none;
-}
-
-.form__success-field .form__success-field p {
-  color: #000;
 }/*# sourceMappingURL=custom-coming-soon.css.map */
