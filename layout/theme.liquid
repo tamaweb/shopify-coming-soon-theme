@@ -60,27 +60,34 @@
     %}
 
     {% style %}
-      {{ settings.type_body_font | font_face: font_display: 'swap' }}
-      {{ body_font_bold | font_face: font_display: 'swap' }}
-      {{ body_font_italic | font_face: font_display: 'swap' }}
-      {{ body_font_bold_italic | font_face: font_display: 'swap' }}
-      {{ settings.type_headings_font | font_face: font_display: 'swap' }}
-      {{ settings.type_navigation_font | font_face: font_display: 'swap' }}
-      {{ settings.type_buttons_font | font_face: font_display: 'swap' }}
-      {{ settings.type_price_font | font_face: font_display: 'swap' }}
-      {{ settings.type_breadcrumbs_font | font_face: font_display: 'swap' }}
+                {{ settings.type_body_font | font_face: font_display: 'swap' }}
+                {{ body_font_bold | font_face: font_display: 'swap' }}
+                {{ body_font_italic | font_face: font_display: 'swap' }}
+                {{ body_font_bold_italic | font_face: font_display: 'swap' }}
+                {{ settings.type_headings_font | font_face: font_display: 'swap' }}
+                {{ settings.type_navigation_font | font_face: font_display: 'swap' }}
+                {{ settings.type_buttons_font | font_face: font_display: 'swap' }}
+                {{ settings.type_price_font | font_face: font_display: 'swap' }}
+                {{ settings.type_breadcrumbs_font | font_face: font_display: 'swap' }}
 
-      @font-face {
-        font-family: 'icomoon';
-        src:  url('{{ 'icomoon.eot' | asset_url }}?6k4fkf');
-        src:  url('{{ 'icomoon.eot' | asset_url }}?6k4fkf#iefix') format('embedded-opentype'),
-          url('{{ 'icomoon.ttf' | asset_url }}?6k4fkf') format('truetype'),
-          url('{{ 'icomoon.woff' | asset_url }}?6k4fkf') format('woff'),
-          url('{{ 'icomoon.svg' | asset_url }}?6k4fkf#icomoon') format('svg');
-        font-weight: normal;
-        font-style: normal;
-        font-display: block;
-      }
+                @font-face {
+                  font-family: 'icomoon';
+                  src:  url('{{ 'icomoon.eot' | asset_url }}?6k4fkf');
+                  src:  url('{{ 'icomoon.eot' | asset_url }}?6k4fkf#iefix') format('embedded-opentype'),
+                    url('{{ 'icomoon.ttf' | asset_url }}?6k4fkf') format('truetype'),
+                    url('{{ 'icomoon.woff' | asset_url }}?6k4fkf') format('woff'),
+                    url('{{ 'icomoon.svg' | asset_url }}?6k4fkf#icomoon') format('svg');
+                  font-weight: normal;
+                  font-style: normal;
+                  font-display: block;
+                }
+
+                @font-face {
+                  font-family: 'jv-font';
+                  src: url('{{ 'CormorantGaramond-VariableFont_wght.woff2' | asset_url }}') format('woff2');
+                  font-weight: 100 900;
+                  font-style: normal;
+                }
     {% endstyle %}
     <style>
       [data-custom-badge="{{ settings.custom-badge-1-input }}"]{
@@ -143,10 +150,10 @@
   <body class="template-{{ template_name }} nav-drawer-big mobile-nav">
     <a href="#root" class="skip-to-content-link">{{ 'accessibility.skip_to_text' | t }}</a>
     {% if settings.sticky_header %}<div class="sticky-header__threshold"></div>{% endif %}
-    
+
     {%- comment -%}
-    {% sections 'header-group' %}
-     {%- endcomment -%}
+      {% sections 'header-group' %}
+    {%- endcomment -%}
 
     <main id="root" class="" role="main" tabindex="-1">
       {{ content_for_layout }}

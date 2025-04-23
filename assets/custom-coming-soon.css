@@ -21,18 +21,22 @@
 }
 
 .newsletter {
-  background: url("https://cdn.shopify.com/s/files/1/0730/8270/0008/files/Hero_JVSP25_S05_043.jpg?v=1744273101") no-repeat 70% 0/cover;
+  background: url("https://cdn.shopify.com/s/files/1/0730/8270/0008/files/CS_Hero_JVSP25_S10_210.webp?v=1745369810") no-repeat 50% 50%/cover;
   height: 80vh;
 }
 .newsletter .newsletter__wrapper .headline .headline__title {
   color: #fff;
   font-size: clamp(28px, 3vw, 6rem);
+  font-family: "jv-font";
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
+  font-weight: normal;
 }
 .newsletter .newsletter__wrapper .newsletter__text p {
   font-size: 13px;
   letter-spacing: 1.5px;
   font-weight: 300;
   color: #fff;
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
 }
 @media screen and (min-width: 768px) {
   .newsletter .newsletter__wrapper .newsletter__text p {
