@@ -21,7 +21,7 @@
 }
 
 .newsletter {
-  background: url("https://cdn.shopify.com/s/files/1/0730/8270/0008/files/CS_Hero_JVSP25_S10_210.webp?v=1745369810") no-repeat 50% 50%/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.32)), url("https://cdn.shopify.com/s/files/1/0730/8270/0008/files/CS_Hero_JVSP25_S10_210.webp?v=1745369810") no-repeat 50% 50%/cover;
   height: 80vh;
 }
 .newsletter .newsletter__wrapper .headline .headline__title {
