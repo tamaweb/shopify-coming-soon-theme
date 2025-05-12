@@ -188,7 +188,14 @@
         "settings": {}
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "152906827736512534": {
+        "type": "shopify://apps/popupsmart-popup-a-b-testing/blocks/app-embed/cca16dd6-0222-4342-9519-bc3a8c43228c",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Beauty": {
