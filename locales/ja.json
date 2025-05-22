@@ -581,5 +581,10 @@
         "vat_label_html": "税込み"
       }
     }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "taxes_included": "税込み"
+    }
   }
 }
