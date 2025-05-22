@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -296,7 +305,8 @@
         "title": "アカウントをお持ちですか？",
         "paragraph_html": "<a href=\"{{ link }}\" tabindex=\"-1\" class=\"link underlined-link\">ログイン</a>して、より速くチェックアウトしてください。"
       },
-      "view_cart": "カートを見る"
+      "view_cart": "カートを見る",
+      "checkbox": ""
     },
     "footer": {
       "payment": "決済方法",
@@ -564,5 +574,12 @@
     "price-to": "価格まで",
     "remove-price-range": "価格範囲フィルターを削除",
     "sort-options": "ソートオプション"
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "vat_label_html": "税込み"
+      }
+    }
   }
 }
