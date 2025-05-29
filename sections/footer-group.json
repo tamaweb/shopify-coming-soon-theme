@@ -53,7 +53,7 @@
         "show-social-media-icons": true,
         "show-language-selector": true,
         "show-country_region_selector": true,
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show-payments-icons": true,
         "show-copyright": true,
         "text": "© 2025 John Varvatos Japan",
